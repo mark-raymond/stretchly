@@ -94,7 +94,7 @@
         "libXtst",
         "xdg-utils",
         "at-spi2-core",
-        "libuuid"
+        "libuuid.so.1()(64bit)"
       ]
     },
     "win": {
