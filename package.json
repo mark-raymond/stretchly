@@ -85,6 +85,18 @@
       ],
       "asarUnpack": "node_modules/macos-notification-state/**"
     },
+    "rpm": {
+      "depends": [
+        "gtk3",
+        "libnotify",
+        "nss",
+        "libXScrnSaver",
+        "libXtst",
+        "xdg-utils",
+        "at-spi2-core",
+        "libuuid"
+      ]
+    },
     "win": {
       "target": [
         "nsis",
